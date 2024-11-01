@@ -1,17 +1,12 @@
-class RedHeadDuck : Duck, IFlyable, IQuackable
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SimuladorPatos.src
 {
-    public override void Display()
+    internal class RedHeadDuck
     {
-        Console.WriteLine("Displaying a RedHead Duck");
-    }
-
-    public void Fly()
-    {
-        Console.WriteLine("RedHead Duck is flying");
-    }
-
-    public void Quack()
-    {
-        Console.WriteLine("Quack, quack!!");
     }
 }

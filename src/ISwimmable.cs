@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimuladorPatos.src
 {
-    internal class Duck
+    internal interface Swimable
     {
     }
 }

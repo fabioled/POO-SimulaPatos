@@ -1,13 +1,12 @@
-class RubberDuck : Duck, IQuackable
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SimuladorPatos.src
 {
-    public override void Display()
+    internal class RubberDuck
     {
-        Console.WriteLine("Displaying a Rubber Duck");
-    }
-
-
-    public void Quack()
-    {
-        Console.WriteLine("Quack, quack!!");
     }
 }

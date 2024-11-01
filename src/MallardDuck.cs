@@ -1,17 +1,12 @@
-class MallardDuck : Duck, IFlyable, IQuackable
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SimuladorPatos.src
 {
-    public override void Display()
+    internal class MallardDuck
     {
-        Console.WriteLine("Displaying a Mallard Duck");
-    }
-
-    public void Fly()
-    {
-        Console.WriteLine("Mallard Duck is flying");
-    }
-
-    public void Quack()
-    {
-        Console.WriteLine("Quack, quack!!");
     }
 }
