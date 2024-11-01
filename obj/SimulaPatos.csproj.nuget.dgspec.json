@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fabio\\workspace\\POO\\SimulaPatos\\SimulaPatos.csproj": {}
+    "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\POO-SimulaPatos\\SimulaPatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fabio\\workspace\\POO\\SimulaPatos\\SimulaPatos.csproj": {
+    "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\POO-SimulaPatos\\SimulaPatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fabio\\workspace\\POO\\SimulaPatos\\SimulaPatos.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\POO-SimulaPatos\\SimulaPatos.csproj",
         "projectName": "SimulaPatos",
-        "projectPath": "C:\\Users\\fabio\\workspace\\POO\\SimulaPatos\\SimulaPatos.csproj",
-        "packagesPath": "C:\\Users\\fabio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fabio\\workspace\\POO\\SimulaPatos\\obj\\",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\POO-SimulaPatos\\SimulaPatos.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\POO-SimulaPatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fabio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
         },
         "frameworks": {
           "net8.0": {
