@@ -1,4 +1,4 @@
-class MallardDuck : Duck, IFlyable, IQuackable
+class MallardDuck : Duck, IFlyable, IQuackable , IDuckThatSwims
 {
     public override void Display()
     {
@@ -14,4 +14,9 @@ class MallardDuck : Duck, IFlyable, IQuackable
     {
         Console.WriteLine("Quack, quack!!");
     }
+     public void Swim(){
+        Console.WriteLine("Pato que nada");
+    }
+
+    
 }
