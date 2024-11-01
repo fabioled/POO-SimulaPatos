@@ -1,4 +1,4 @@
-class RedHeadDuck : Duck, IFlyable, IQuackable
+class RedHeadDuck : Duck, IFlyable, IQuackable, ISwimmable
 {
     public override void Display()
     {
@@ -13,5 +13,9 @@ class RedHeadDuck : Duck, IFlyable, IQuackable
     public void Quack()
     {
         Console.WriteLine("Quack, quack!!");
+    }
+    public void Swim()
+    {
+        Console.WriteLine("RedHead Duck is swimming");
     }
 }
