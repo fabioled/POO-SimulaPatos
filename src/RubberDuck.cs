@@ -1,4 +1,4 @@
-class RubberDuck : Duck, IQuackable
+class RubberDuck : Duck, IQuackable,ISwimable
 {
     public override void Display()
     {
@@ -9,5 +9,10 @@ class RubberDuck : Duck, IQuackable
     public void Quack()
     {
         Console.WriteLine("Quack, quack!!");
+    }
+
+    public void Swin()
+    {
+        Console.WriteLine("The Rubberduck is swimming");
     }
 }
